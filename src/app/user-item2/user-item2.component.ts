@@ -11,13 +11,14 @@ import {
   styleUrls: ['./user-item2.component.css']
 })
 
-export class UserItem2Component implements OnInit {
-  //@Input() name: string; // <-- added Input annotation
+export class UserItem2Component {
   @Input() name: string;
 
   constructor() {
-  // removed setting name
+    this.name = "";
+  }  
+
+  ngOnInit() {
+
   }
-  
-  ngOnInit() {}
 }
