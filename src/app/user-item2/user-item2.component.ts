@@ -15,7 +15,7 @@ export class UserItem2Component {
   @Input() name: string;
 
   constructor() {
-    this.name = "";
+    //this.name = "";
   }  
 
   ngOnInit() {
